@@ -1,99 +1,98 @@
 .Hero {
-    padding-top: 70px;
-    color: var(--font-default);
-    display: flex;
-    justify-content: space-between;
-    height: 80vh;
+  color: var(--font-default);
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
 }
 .Hero-left {
-    flex: 0.7;
-    height: 100%;
+  flex: 0.7;
+  height: 100%;
 }
 .Hero-right {
-    flex: 0.2;
-    height: 100%;
+  flex: 0.2;
+  height: 100%;
 }
 .Hero-head {
-    font-size: 1.2rem;
-    font-family: "Space Mono",monospace;
-    color: var(--accent-blue);
+  font-size: 1.2rem;
+  font-family: 'Space Mono', monospace;
+  color: var(--accent-blue);
 }
 .Hero-name {
-    font-size: 5rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-    margin-bottom: 2%;
+  font-size: 5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 2%;
 }
-.Hero-body-header{
-    width: 90%;
-    font-size: 2.3rem;
-    font-family: 'Ubuntu', sans-serif;
-    color: var(--font-default) ;
-    font-weight: 600;
-    opacity: 0.6;
-    margin-bottom: 2%;
+.Hero-body-header {
+  width: 90%;
+  font-size: 2.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--font-default);
+  font-weight: 600;
+  opacity: 0.6;
+  margin-bottom: 2%;
 }
 .rubber {
-    display: inline-block;
+  display: inline-block;
 }
-.rubber:hover{
-    color: var(--accent-default);
+.rubber:hover {
+  color: var(--accent-default);
 }
 .awesome {
-    font-family:  Courier, monospace;
-    color: var(--accent-default);
-    opacity: 1;
-    height: 100%;
-    width: 30%;
-    font-weight: 400;
-    font-size: 3rem;
-    margin: 0 10px;
-    position: relative;
-    transition: all 300ms ease-in-out;
+  font-family: Courier, monospace;
+  color: var(--accent-default);
+  opacity: 1;
+  height: 100%;
+  width: 30%;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0 10px;
+  position: relative;
+  transition: all 300ms ease-in-out;
 }
-.awesome-hovered{
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--accent-blue);
-    transition: all 300ms ease-in-out;
+.awesome-hovered {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent-blue);
+  transition: all 300ms ease-in-out;
 }
 .rubber-bounce {
-    animation: rubberband 800ms alternate ease-out;
+  animation: rubberband 800ms alternate ease-out;
 }
 
 .Hero-body-text {
-    width: 83%;
-    font-size: 1.2rem;
-    color: var(--font-light);
-    font-family: 'Play',sans-serif;
+  width: 83%;
+  font-size: 1.2rem;
+  color: var(--font-light);
+  font-family: 'Play', sans-serif;
 }
 p > #current-job {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size: 1.3rem;
-    margin-left: 5px;
-    color: var(--fiery-rose);
-    font-family: "Space Mono",monospace;
-    position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  color: var(--fiery-rose);
+  font-family: 'Space Mono', monospace;
+  position: relative;
 }
 p > #current-job:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-p > #current-job::after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 1px;
-    background-color: var(--fiery-rose);
-    position: relative;
-    bottom: 0;
-    transition: 300ms all ease-in-out;
+p > #current-job::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: var(--fiery-rose);
+  position: relative;
+  bottom: 0;
+  transition: 300ms all ease-in-out;
 }
-p > #current-job:hover::after{
-    width: 100%;
+p > #current-job:hover::after {
+  width: 100%;
 }
 
 /* .underline{
@@ -106,40 +105,40 @@ p > #current-job:hover::after{
 } */
 
 @keyframes rubberband {
-    0%{
-        transform: scaleX(1);
-    }
-    40%{
-        transform: scaleX(1.12) scaleY(0.75);
-    }
-    55%{
-        transform: scaleX(0.85) scaleY(1);
-    }
-    65%{
-        transform: scaleX(1.09) scaleY(0.85);
-    }
-    75%{
-        transform: scaleX(0.9)  scaleY(1);
-    }
-    90%{
-        transform: scaleX(1.05) scaleY(0.95);
-    }
-    100%{
-        transform: scaleX(1) scaleY(1);
-    }
+  0% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(1.12) scaleY(0.75);
+  }
+  55% {
+    transform: scaleX(0.85) scaleY(1);
+  }
+  65% {
+    transform: scaleX(1.09) scaleY(0.85);
+  }
+  75% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+  90% {
+    transform: scaleX(1.05) scaleY(0.95);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
 }
 
 @keyframes bouncing {
-    0%{
-        top : 5px;
-        transform: scaleX(1.15) scaleY(0.7);
-    }
-    100%{
-        top: -30px;
-        transform: scaleX(1) scaleY(1);
-    }
+  0% {
+    top: 5px;
+    transform: scaleX(1.15) scaleY(0.7);
+  }
+  100% {
+    top: -30px;
+    transform: scaleX(1) scaleY(1);
+  }
 }
 
-.Hero-body-cta{
-    width: 100%;
+.Hero-body-cta {
+  width: 100%;
 }
