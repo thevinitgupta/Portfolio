@@ -10,19 +10,19 @@ function Work() {
             </header>
             <div className='Work-list'>
                 <div className='Work-col'>
-                    <WorkCard name="typr" github="" />
+                    <WorkCard name="typr" github="http://thevinitgupta.me/Typr/" />
                     <div className='Work-name'>
                         Typr
                     </div>
                 </div>
                 <div className='Work-col'>
-                    <WorkCard name="souviktalks" github="" />
+                    <WorkCard name="souviktalks" github="https://souviktalks-2021.web.app/" />
                     <div className='Work-name'>
                         Souvik Talks
                     </div>
                 </div>
                 <div className='Work-col'>
-                    <WorkCard name="moviefling" github="" />
+                    <WorkCard name="moviefling" github="https://moviefling.netlify.app/" />
                     <div className='Work-name'>
                         Movie Fling
                     </div>

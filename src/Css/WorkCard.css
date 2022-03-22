@@ -15,7 +15,7 @@
     cursor: pointer;
     transform: scale(1.02);
     background: linear-gradient(145deg, #010a12, #010c15);
-    box-shadow:  25px 25px 0px #01070c,
+    box-shadow:  25px 25px 0px #000508,
              -25px -25px 0px #031424;
 
 }

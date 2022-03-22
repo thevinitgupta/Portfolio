@@ -15,6 +15,9 @@ function WorkCard({...props}) {
         <div className='WorkCard-img'>
           <img src={icon} alt='work'/>
         </div>
+        <div className='WorkCard-overlay'>
+          <span className='WorkCard-link'>Github &#10138;</span>
+        </div>
     </div>
   )
 }
