@@ -10,19 +10,19 @@ function Work() {
             </header>
             <div className='Work-list'>
                 <div className='Work-col'>
-                    <WorkCard/>
+                    <WorkCard name="typr" github="" />
                     <div className='Work-name'>
                         Typr
                     </div>
                 </div>
                 <div className='Work-col'>
-                    <WorkCard/>
+                    <WorkCard name="souviktalks" github="" />
                     <div className='Work-name'>
                         Souvik Talks
                     </div>
                 </div>
                 <div className='Work-col'>
-                    <WorkCard/>
+                    <WorkCard name="moviefling" github="" />
                     <div className='Work-name'>
                         Movie Fling
                     </div>
