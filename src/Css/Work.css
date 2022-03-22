@@ -21,7 +21,19 @@
 .Work-list{
     flex: 70vh;
     width: 90%;
-    justify-self: start;
+    /* justify-self: start; */
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+}
+.Work-col {
+    height: 100%;
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Work-col:nth-child(2){
+    flex-direction: column-reverse;
 }

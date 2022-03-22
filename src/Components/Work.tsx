@@ -9,9 +9,24 @@ function Work() {
                 Turning tags to Websites
             </header>
             <div className='Work-list'>
-                <WorkCard/>
-                <WorkCard/>
-                <WorkCard/>
+                <div className='Work-col'>
+                    <WorkCard/>
+                    <div className='Work-name'>
+                        Typr
+                    </div>
+                </div>
+                <div className='Work-col'>
+                    <WorkCard/>
+                    <div className='Work-name'>
+                        Souvik Talks
+                    </div>
+                </div>
+                <div className='Work-col'>
+                    <WorkCard/>
+                    <div className='Work-name'>
+                        Movie Fling
+                    </div>
+                </div>
             </div>
         </div>
     )
