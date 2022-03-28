@@ -1,10 +1,11 @@
 import React from 'react'
 import "../Css/Logo.css"
 
-function Logo() {
+function Logo({...props}) {
+    const scrolled:boolean = props.scrolled;
     return (
         <div className="Logo">
-            <div className="Logo-text">
+            <div className={scrolled? "Logo-text Logo-scrolled": "Logo-text"}>
                 <span className="Logo-text-left">the</span>
                 <span className="Logo-pop">V</span>
                 <span className="Logo-margin"></span>
