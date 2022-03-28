@@ -3,6 +3,9 @@ import "../Css/Work.css"
 import WorkCard from './WorkCard'
 
 function Work() {
+    function openWorkPage(){
+        //reroute to all work page
+    }
     return (
         <div className='Work'>
             <header className='Work-head'>
@@ -27,6 +30,11 @@ function Work() {
                         Movie Fling
                     </div>
                 </div>
+            </div>
+            <div className='Work-all'>
+                <span onClick={()=>{
+                    openWorkPage();
+                }} id="work-link">See All </span>
             </div>
         </div>
     )

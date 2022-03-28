@@ -43,3 +43,39 @@
     font-family: 'Play',sans-serif;
     color: var(--font-default);
 }
+
+.Work-all{
+    width: 100%;
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Work-all > #work-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    margin-left: 5px;
+    color: var(--accent-blue);
+    font-family: "Space Mono",monospace;
+    position: relative;
+}
+.Work-all > #work-link:hover {
+    cursor: pointer;
+}
+.Work-all > #work-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: var(--accent-default);
+    position: relative;
+    bottom: 0;
+    transition: 300ms all ease-in-out;
+}
+.Work-all > #work-link:hover::after{
+    width: 100%;
+}
