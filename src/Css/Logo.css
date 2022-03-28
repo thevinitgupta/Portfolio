@@ -1,7 +1,7 @@
 .Logo {
     flex: 0.3;
     font-size: 1.6rem;
-    color: var(--accent-default);
+    color: var(--logo-main);
     font-family: 'Audiowide', cursive;
     position: relative;
     transition: all 350ms ease-in-out;
@@ -39,7 +39,7 @@
     }
     .Logo-pop{
         font-size: 3.8rem;
-        color: var(--accent-default);
+        color: var(--logo-main);
         transform: rotateZ(-90deg);
     }
 }

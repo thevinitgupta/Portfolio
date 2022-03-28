@@ -5,12 +5,13 @@ font-family: 'Black Ops One', cursive;
 */
 :root {
   /* rich-black-fogra-29 */
-  --background-default: #0d1a2f; 
+  --background-default: #010B14; 
   --accent-blue: #6cfff8;
-  --font-default: #ebfdf6;
+  --accent-blue-light: #061929;
+  --font-default: #FDFFFC;
   --font-light: #d9ebe4d3;
-  --accent-default: #fffb1b;
-  --fiery-rose: #f45b69ff;
+  --accent-default: #FFE900;
+  --logo-main : #56f045;
 }
 
 html,body {

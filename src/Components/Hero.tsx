@@ -9,7 +9,7 @@ function Hero() {
     return (
         <div className="Hero">
             <div className="Hero-left">
-            <p className="Hero-head">&#60; Web Developer &#47; &#62;</p>
+            {/* <p className="Hero-head">&#60; Web Developer &#47; &#62;</p> */}
             <div className="Hero-name">
                 
             {heroHead.map((char, index)=>{

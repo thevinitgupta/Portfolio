@@ -75,7 +75,7 @@ p > #current-job {
     letter-spacing: 2px;
     font-size: 1.3rem;
     margin-left: 5px;
-    color: var(--fiery-rose);
+    color: var(--accent-default);
     font-family: "Space Mono",monospace;
     position: relative;
 }
@@ -87,7 +87,7 @@ p > #current-job::after{
     display: block;
     width: 0;
     height: 1px;
-    background-color: var(--fiery-rose);
+    background-color: var(--accent-default);
     position: relative;
     bottom: 0;
     transition: 300ms all ease-in-out;
