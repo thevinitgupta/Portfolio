@@ -43,3 +43,15 @@
         transform: rotateZ(-90deg);
     }
 }
+
+.Logo-scrolled>.Logo-text-left {
+    display: none;
+}
+.Logo-scrolled>.Logo-text-right {
+    display: none;
+}
+.Logo-scrolled>.Logo-pop{
+    font-size: 3.8rem;
+    color: var(--logo-main);
+    transform: rotateZ(-90deg);
+}

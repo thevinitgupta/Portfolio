@@ -4,13 +4,14 @@ import About from "../Assets/Icons/about.gif";
 import Blog from "../Assets/Icons/blog.gif";
 import Skills from "../Assets/Icons/skills.gif";
 
-function Navmenu() {
+function Navmenu({...props}) {
+    const scrolled:boolean = props.scrolled;
     const [aboutHovered,setAboutHovered] = useState(false);
     const [skillsHovered,setSkillsHovered] = useState(false);
     const [blogHovered,setBlogHovered] = useState(false);
     
     return (
-        <div className="Navmenu">
+        <div className={scrolled ? "Navmenu Navmenu-scrolled" : "Navmenu"}>
            <ul>
                 <li className="Navmenu-about" onMouseOver={()=>{
                     setAboutHovered(true);
