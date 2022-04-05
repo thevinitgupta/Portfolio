@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../Css/Navmenu.css"
-import About from "../Assets/Icons/about.gif";
+// import About from "../Assets/Icons/about.gif";
 import Blog from "../Assets/Icons/blog.gif";
 import Skills from "../Assets/Icons/skills.gif";
 
@@ -18,7 +18,7 @@ function Navmenu({...props}) {
                 }} 
                 onMouseOut={()=>{setAboutHovered(false)}}
                 >
-                    <img alt="about" className="Navmenu-img" style={{display : !aboutHovered?"none" : "block"}} src={About}/>
+                    {/* <img alt="about" className="Navmenu-img" style={{display : !aboutHovered?"none" : "block"}} src={About}/> */}
                     
                     <span className="Navmenu-text" style={{display : aboutHovered?"none" : "block"}}>About</span>
                 </li>

@@ -6,8 +6,7 @@ import Work from './Work'
 
 function Home() {
     return (
-        <div className="Home">
-            <Navbar/>  
+        <div className="Home">  
             <Hero/>
             <Work/>
         </div>
