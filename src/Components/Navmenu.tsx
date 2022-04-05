@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import "../Css/Navmenu.css"
-// import About from "../Assets/Icons/about.gif";
-import Blog from "../Assets/Icons/blog.gif";
-import Skills from "../Assets/Icons/skills.gif";
+
+import { Link } from 'react-router-dom';
 
 function Navmenu({...props}) {
     const scrolled:boolean = props.scrolled;
@@ -17,10 +16,8 @@ function Navmenu({...props}) {
                     setAboutHovered(true);
                 }} 
                 onMouseOut={()=>{setAboutHovered(false)}}
-                >
-                    {/* <img alt="about" className="Navmenu-img" style={{display : !aboutHovered?"none" : "block"}} src={About}/> */}
-                    
-                    <span className="Navmenu-text" style={{display : aboutHovered?"none" : "block"}}>About</span>
+                >                    
+                    <Link to="/about" className="Navmenu-text"><span>About</span></Link>
                 </li>
 
 
@@ -29,8 +26,7 @@ function Navmenu({...props}) {
                 }} 
                 onMouseOut={()=>{setSkillsHovered(false)}}
                 >
-                    <img alt="about" className="Navmenu-img" style={{display : !skillsHovered?"none" : "block"}} src={Skills}/>
-                    <span className="Navmenu-text" style={{display : skillsHovered?"none" : "block"}}> Skills </span>
+                    <Link to="/skills" className="Navmenu-text"> <span>Skills</span> </Link>
                 </li>
 
 
@@ -39,8 +35,7 @@ function Navmenu({...props}) {
                 }} 
                 onMouseOut={()=>{setBlogHovered(false)}}
                 >
-                    <img alt="skills" className="Navmenu-img" style={{display : !blogHovered?"none" : "block"}} src={Blog}/>
-                    <span className="Navmenu-text" style={{display : blogHovered?"none" : "block"}}> Blog </span>
+                    <Link to="/blog" className="Navmenu-text"> <span>Blog</span> </Link>
                 </li>
             </ul> 
         </div>

@@ -1,6 +1,6 @@
 .Navbar {
     width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 10vh;
     background: var(--background-default);
     position: absolute; 

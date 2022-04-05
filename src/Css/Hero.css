@@ -78,6 +78,7 @@
 }
 p > #current-job {
     display: inline-block;
+    width: fit-content;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 2px;

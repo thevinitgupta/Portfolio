@@ -5,5 +5,7 @@
   background-color: var(--background-default);
   color: var(--font-default);
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
   font-family: "Baloo Da 2",cursive;
 }
