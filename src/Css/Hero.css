@@ -1,0 +1,39 @@
+.hero{
+    width : 85vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left{
+    flex : 0.45;
+    font-size: 3rem;
+    color: var(--text-purple);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-left>div{
+    margin-top: 30px;
+}
+.hero-right {
+    flex : 0.45;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-right-div{
+    width: 70%;
+    height: 60vh;
+    min-width: 400px;
+    object-fit: cover;
+    border-radius: 60% 32% 36% 70% / 60% 39% 60% 31%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-right img {
+    width : 40vw;
+}

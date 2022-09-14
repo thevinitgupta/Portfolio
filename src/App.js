@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import Experience from './components/Experience';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import PopupBtn from './components/PopupBtn'
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PopupBtn color="var(--white)" backgroundColor="var(--logo-pink)" text="Vinit Gupta" font="var(--font-logo)" shadowColor="var(--black)" width="18%" fontWeight="600" minWidth="250px" borderWidth='3px' height="2%" position= "absolute" left="4%" top="12%" zIndex="25" fontSize="1.9rem" stickyNeeded={true} transform='rotate(-0.03turn)' changeTop={true} transition="position 300ms ease-in-out" />
+      <Navbar/>
+      <Hero/>
+      <Experience/>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.navbar{
+    width: 85vw;
+    height : 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: #ffffff45;
+}
+.navmenu {
+    flex: 0.45;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+.navlink:hover{
+    cursor : pointer;
+}
+.git{
+    color: var(--text-purple);
+}
+.linked{
+    color : #004AAD;
+}
+.leet{
+    color: #FF9551;
+}
