@@ -7,9 +7,10 @@
     align-items: space-between;
 }
 .experience-head{
-    font-size: 1.7rem;
+    font-size: 2rem;
     flex : 0.1;
     width: 100%;
+    font-weight: 600;
 }
 .experience-body{
     flex: 0.85;

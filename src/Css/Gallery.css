@@ -1,0 +1,29 @@
+.gallery {
+    width : 85vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+.gallery-head {
+    flex : 0.15;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.gallery-body{
+    flex : 0.8;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gallery-row{
+    flex : 0.3;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 5%;
+}
