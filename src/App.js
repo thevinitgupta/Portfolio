@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PopupBtn from './components/PopupBtn'
+import Skills from './components/Skills';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero/>
       <Experience/>
       <Gallery/>
+      <Skills/>
     </div>
   );
 }
