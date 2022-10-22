@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PopupBtn from './components/PopupBtn'
 import Skills from './components/Skills';
+import Writings from './components/Writings';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Experience/>
       <Gallery/>
       <Skills/>
+      <Writings/>
     </div>
   );
 }

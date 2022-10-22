@@ -1,0 +1,24 @@
+.writings{
+    height : 90vh;
+    width : 85vw;
+}
+.writings-head{
+    height : 10%;
+    width : 100%;
+    font-size: 2rem;
+}
+.writings-body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.type-img{
+    height: 100%;
+}
+.writing{
+    width : 50%;
+    height: 10vh;
+}

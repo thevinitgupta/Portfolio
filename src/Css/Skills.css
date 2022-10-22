@@ -1,0 +1,33 @@
+.skills{
+    min-height: 90vh;
+    width: 85vw;
+}
+.skills-head{
+    height : 10%;
+    width: 100%;
+    font-size: 2rem;
+}
+.skills-body{
+    min-height: 85vh;
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-record{
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+    animation: rotate infinite 910s;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(180turn);
+    }
+}
